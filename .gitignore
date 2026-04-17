@@ -1,0 +1,16 @@
+# Root
+node_modules
+.env
+.env.local
+
+# Frontend
+Frontend/node_modules
+Frontend/.next
+
+# Backend
+Backend/node_modules
+
+# Build / misc
+dist
+build
+.next

@@ -1,0 +1,10 @@
+.premium-bg {
+  background: radial-gradient(circle at 50% -20%, #1e1e1e, #050505) fixed;
+  min-height: 100vh;
+  color: #ededed;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
