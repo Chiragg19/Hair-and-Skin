@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-import { getAuth } from "firebase/auth"; // ✅ ADD THIS
+import { getAuth } from "firebase/auth";
+import { Analytics } from "@vercel/analytics/next"
 
 const firebaseConfig = {
   apiKey: "AIzaSyCmHiV-ducK6dI3qq7ioAJuOadlwV4rwyw",
