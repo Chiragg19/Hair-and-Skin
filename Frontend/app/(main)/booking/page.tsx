@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://hair-and-skin-backend.onrender.com";
 
 export default function BookingPage() {
   const [service, setService] = useState('Haircut');

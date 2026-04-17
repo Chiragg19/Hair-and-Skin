@@ -43,6 +43,9 @@ app.post("/api/booking", async (req, res) => {
     res.status(500).json({ message: "Error saving booking" });
   }
 });
+app.get("/api/test", (req, res) => {
+  res.json({ message: "API working 🚀" });
+});
 
 const PORT = process.env.PORT || 5000;
 
