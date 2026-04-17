@@ -10,9 +10,9 @@ app.use(cors());
 app.use(express.json());
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
+  apiKey: "AIzaSyCmHiV-ducK6dI3qq7ioAJuOadlwV4rwyw",
+  authDomain: "salon-app-27100.firebaseapp.com",
+  projectId: "salon-app-27100",
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
